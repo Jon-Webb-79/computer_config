@@ -21,7 +21,7 @@ else
     mkdir "$file_path"
     cd "$file_path"
     mkdir .venv
-    mkdir src
+    mkdir $varname 
     mkdir scripts
     mkdir scripts/bash
     mkdir test
@@ -29,13 +29,13 @@ else
     mkdir docs
     mkdir docs/sphinx
     mkdir docs/requirements
-    cp $py_path$"/__init__.py" src/__init__.py
+    cp $py_path$"/__init__.py" $varname"/__init__.py"
     cp $py_path$"/LICENSE" LICENSE
     cp $py_path$"/README.rst" README.rst
     cp $py_path$"/.gitignore" .gitignore
     touch requirements.txt
     cp $py_path$"/setup.py" setup.py
-    cp $py_path$"/main.py" src/main.py
+    cp $py_path$"/main.py" $varname"/main.py"
     cp $py_path$"/test.py" test/test.py
     mkdir docs/sphinx/build
     mkdir docs/sphinx/source

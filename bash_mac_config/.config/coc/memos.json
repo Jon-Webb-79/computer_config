@@ -1,0 +1,1786 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1612712525393
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1612712525394
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1612712525391
+    },
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "3c2234da97e31f3cff164bc47b60dc9d0d52d05f4bd64f6993ffa0523aa91b0494161e88b64a87041501b1d536d2dce3e17d6d29e14b369875d5407c3a41333c"
+      },
+      "expiry": 1612712525397
+    },
+    "/usr/local/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "fe6df9ea4100e62e98892a737747b10c032cf10d88dd7c542adfd74a30e53c2fbd0eb84047c5060d0be23e6a26f5feee111024ba973b2b8563038b866ebc323e"
+      },
+      "expiry": 1612712525396
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f"
+      },
+      "expiry": 1612712525849
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1612712525446
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161",
+        "type": "Unknown"
+      }
+    ],
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+      "type": "Unknown"
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/opt/python@3.9/bin/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.1-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 1,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.1-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+          "type": "Unknown",
+          "displayName": "Python 3.9.1 64-bit"
+        }
+      },
+      "expiry": 1612717600386
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.1 64-bit",
+        "hash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f-3ac8465280f47b66e9ddd5b5794473c1"
+      },
+      "expiry": 1612712526106
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1612712525452
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "3c2234da97e31f3cff164bc47b60dc9d0d52d05f4bd64f6993ffa0523aa91b0494161e88b64a87041501b1d536d2dce3e17d6d29e14b369875d5407c3a41333c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "fe6df9ea4100e62e98892a737747b10c032cf10d88dd7c542adfd74a30e53c2fbd0eb84047c5060d0be23e6a26f5feee111024ba973b2b8563038b866ebc323e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "3c2234da97e31f3cff164bc47b60dc9d0d52d05f4bd64f6993ffa0523aa91b0494161e88b64a87041501b1d536d2dce3e17d6d29e14b369875d5407c3a41333c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "fe6df9ea4100e62e98892a737747b10c032cf10d88dd7c542adfd74a30e53c2fbd0eb84047c5060d0be23e6a26f5feee111024ba973b2b8563038b866ebc323e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      }
+    ],
+    "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.0-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.0-final"
+        },
+        "sysPrefix": "/Users/jonwebb/.pyenv/versions/3.7.0",
+        "fileHash": "98c8c60bd1475ca8a2df3145ea4d1e670312ded5c3f5745948a097c26b3ab5eeaec1acbf46fc5b00d8eff3069e130b99bb6385c8bdfe4bb2e99a2f00b608449c"
+      },
+      "expiry": 1612712525660
+    },
+    "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.0-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.0-final"
+        },
+        "sysPrefix": "/Users/jonwebb/.pyenv/versions/3.7.0",
+        "fileHash": "4313f7f9b154dceb845067a5dd2a8787ee0949b04f2d7516892acef6ab769648070dccb2752d3d7be6d7980e391aefb8b948dc3a18333b479f6c9b8e5ddfc363"
+      },
+      "expiry": 1612712525658
+    },
+    "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.0-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.0-final"
+        },
+        "sysPrefix": "/Users/jonwebb/.pyenv/versions/3.7.0",
+        "fileHash": "ae6d0844e1e89d0121e6c5a1a374b464a317ed64503aa2222c7d0d8fe26d0c156f8958f5aa715a7ecaabcf9de94a6a73a163714de1c5b183f128294218002dd2"
+      },
+      "expiry": 1612712525661
+    },
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.0-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.0-final"
+        },
+        "sysPrefix": "/Users/jonwebb/.pyenv/versions/3.7.0",
+        "fileHash": "ae6d0844e1e89d0121e6c5a1a374b464a317ed64503aa2222c7d0d8fe26d0c156f8958f5aa715a7ecaabcf9de94a6a73a163714de1c5b183f128294218002dd2",
+        "envName": "3.7.0",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.0-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.0-final"
+        },
+        "sysPrefix": "/Users/jonwebb/.pyenv/versions/3.7.0",
+        "fileHash": "4313f7f9b154dceb845067a5dd2a8787ee0949b04f2d7516892acef6ab769648070dccb2752d3d7be6d7980e391aefb8b948dc3a18333b479f6c9b8e5ddfc363",
+        "envName": "3.7.0",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.0-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.0-final"
+        },
+        "sysPrefix": "/Users/jonwebb/.pyenv/versions/3.7.0",
+        "fileHash": "98c8c60bd1475ca8a2df3145ea4d1e670312ded5c3f5745948a097c26b3ab5eeaec1acbf46fc5b00d8eff3069e130b99bb6385c8bdfe4bb2e99a2f00b608449c",
+        "envName": "3.7.0",
+        "type": "Pyenv"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.0 64-bit ('3.7.0': pyenv)",
+        "hash": "ae6d0844e1e89d0121e6c5a1a374b464a317ed64503aa2222c7d0d8fe26d0c156f8958f5aa715a7ecaabcf9de94a6a73a163714de1c5b183f128294218002dd2-92af301c6894be6a54659dcceb8b8c10"
+      },
+      "expiry": 1612712525987
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.1 64-bit",
+        "hash": "3c2234da97e31f3cff164bc47b60dc9d0d52d05f4bd64f6993ffa0523aa91b0494161e88b64a87041501b1d536d2dce3e17d6d29e14b369875d5407c3a41333c-75918c6c4b4aa6ca8c6405bee75c9e35"
+      },
+      "expiry": 1612712525611
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-f5b651b9c4b75532b11ae83303c43d14"
+      },
+      "expiry": 1612712525614
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-4bc3c9f5346452a4fe404c621ebcd443"
+      },
+      "expiry": 1612712525616
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-a9fb100b1ab04c53a774363838d4885e"
+      },
+      "expiry": 1612712525619
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+      "type": "Unknown",
+      "displayName": "Python 3.9.1 64-bit"
+    },
+    "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ae6d0844e1e89d0121e6c5a1a374b464a317ed64503aa2222c7d0d8fe26d0c156f8958f5aa715a7ecaabcf9de94a6a73a163714de1c5b183f128294218002dd2",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/jonwebb/.pyenv/versions/3.7.0/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.0-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 0,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.0-final"
+          },
+          "sysPrefix": "/Users/jonwebb/.pyenv/versions/3.7.0",
+          "fileHash": "ae6d0844e1e89d0121e6c5a1a374b464a317ed64503aa2222c7d0d8fe26d0c156f8958f5aa715a7ecaabcf9de94a6a73a163714de1c5b183f128294218002dd2",
+          "envName": "3.7.0",
+          "type": "Pyenv",
+          "displayName": "Python 3.7.0 64-bit ('3.7.0': pyenv)"
+        }
+      },
+      "expiry": 1612712526051
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "3c2234da97e31f3cff164bc47b60dc9d0d52d05f4bd64f6993ffa0523aa91b0494161e88b64a87041501b1d536d2dce3e17d6d29e14b369875d5407c3a41333c",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.1-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 1,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.1-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "3c2234da97e31f3cff164bc47b60dc9d0d52d05f4bd64f6993ffa0523aa91b0494161e88b64a87041501b1d536d2dce3e17d6d29e14b369875d5407c3a41333c",
+          "type": "Unknown",
+          "displayName": "Python 3.9.1 64-bit"
+        }
+      },
+      "expiry": 1612712525699
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1612712525705
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1612712525711
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1612712525715
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+      "type": "Unknown",
+      "displayName": "Python 3.9.1 64-bit"
+    },
+    "ProposeLSBanner": false,
+    "pylint_DisableLinterInstallPrompt": true,
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "a963a5d173af27fd9979da004e032eb0425fb9c7fc63bff767af57ad2398cf8de7cda770dc5a3832ad3631c2b69453213b62d2b6ad260852de88bc2a995f2f66"
+      },
+      "expiry": 1612712525448
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "e607956996e65778f41d6c162781054d2c5b080ec6dd6f15618b1473053b7f500957da7ce8a1bb7496f0a40f3ce308396b2f01f51567b96fa82149c64c794f4d"
+      },
+      "expiry": 1612712525445
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161"
+      },
+      "expiry": 1612712525409
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+      "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161",
+      "envName": ".venv",
+      "type": "Venv"
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.1 64-bit ('.venv': venv)",
+        "hash": "e607956996e65778f41d6c162781054d2c5b080ec6dd6f15618b1473053b7f500957da7ce8a1bb7496f0a40f3ce308396b2f01f51567b96fa82149c64c794f4d-5f03908f745319333ae2e50ab246ab90"
+      },
+      "expiry": 1612717600320
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161"
+      },
+      "expiry": 1612717600347
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e607956996e65778f41d6c162781054d2c5b080ec6dd6f15618b1473053b7f500957da7ce8a1bb7496f0a40f3ce308396b2f01f51567b96fa82149c64c794f4d",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.1-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 1,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.1-final"
+          },
+          "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+          "fileHash": "e607956996e65778f41d6c162781054d2c5b080ec6dd6f15618b1473053b7f500957da7ce8a1bb7496f0a40f3ce308396b2f01f51567b96fa82149c64c794f4d",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.9.1 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1612717600372
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.1 64-bit ('.venv': venv)",
+        "hash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161-b2f4b4bf43b072b81921d4482c0bbfa5"
+      },
+      "expiry": 1612717600411
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "daa6a349a1a1733edfeae4e62ad1c6acc9a88600d2cf8848857d734bedb366e8a969201ca014e36a50296199416f7fdbe7049be5ec5a8246b372e92ddbbf0c13"
+      },
+      "expiry": 1611717931552
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "2c7c28f011cb0fb85f11786e2795cda0548277f3d2e74442d86ba0f6475de6c5b640150a9129b83d0e0148ab04579cfc6c7c632394e37dbfc667164c3021e719"
+      },
+      "expiry": 1611717931626
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "9a2af77f52cc48cb692273ca7f3fb6b27201e514ef46c0b96e884b662e308a693fe1e1d4babe9fa58c1dfd49d758b38eb9b31b854dcd50bfd24f88a811f410af"
+      },
+      "expiry": 1611717931553
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.1 64-bit ('.venv': venv)",
+        "hash": "9a2af77f52cc48cb692273ca7f3fb6b27201e514ef46c0b96e884b662e308a693fe1e1d4babe9fa58c1dfd49d758b38eb9b31b854dcd50bfd24f88a811f410af-77212f6451724f976a98ce25f4470ff8"
+      },
+      "expiry": 1611717951786
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "daa6a349a1a1733edfeae4e62ad1c6acc9a88600d2cf8848857d734bedb366e8a969201ca014e36a50296199416f7fdbe7049be5ec5a8246b372e92ddbbf0c13"
+      },
+      "expiry": 1611717931661
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9a2af77f52cc48cb692273ca7f3fb6b27201e514ef46c0b96e884b662e308a693fe1e1d4babe9fa58c1dfd49d758b38eb9b31b854dcd50bfd24f88a811f410af",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.1-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 1,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.1-final"
+          },
+          "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+          "fileHash": "9a2af77f52cc48cb692273ca7f3fb6b27201e514ef46c0b96e884b662e308a693fe1e1d4babe9fa58c1dfd49d758b38eb9b31b854dcd50bfd24f88a811f410af",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.9.1 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1611717951793
+    },
+    "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.1 64-bit ('.venv': venv)",
+        "hash": "daa6a349a1a1733edfeae4e62ad1c6acc9a88600d2cf8848857d734bedb366e8a969201ca014e36a50296199416f7fdbe7049be5ec5a8246b372e92ddbbf0c13-75bb362e7f98f24a06df5b20f1345e45"
+      },
+      "expiry": 1611717931728
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+      "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161",
+      "type": "Unknown"
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+      "fileHash": "a963a5d173af27fd9979da004e032eb0425fb9c7fc63bff767af57ad2398cf8de7cda770dc5a3832ad3631c2b69453213b62d2b6ad260852de88bc2a995f2f66",
+      "type": "VirtualEnv"
+    }
+  },
+  "coc-python|/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:a84553d5d6f4553021cc91815246ebca": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a84553d5d6f4553021cc91815246ebca": [
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "e607956996e65778f41d6c162781054d2c5b080ec6dd6f15618b1473053b7f500957da7ce8a1bb7496f0a40f3ce308396b2f01f51567b96fa82149c64c794f4d",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "a963a5d173af27fd9979da004e032eb0425fb9c7fc63bff767af57ad2398cf8de7cda770dc5a3832ad3631c2b69453213b62d2b6ad260852de88bc2a995f2f66",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances": {
+      "architecture": 3,
+      "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+      "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161",
+      "envName": ".venv",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "e607956996e65778f41d6c162781054d2c5b080ec6dd6f15618b1473053b7f500957da7ce8a1bb7496f0a40f3ce308396b2f01f51567b96fa82149c64c794f4d",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "a963a5d173af27fd9979da004e032eb0425fb9c7fc63bff767af57ad2398cf8de7cda770dc5a3832ad3631c2b69453213b62d2b6ad260852de88bc2a995f2f66",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv",
+        "fileHash": "e0b3babd9f456cee18404ec4a637761cc4adbcc42aad9743d199f99f7d1971e73024af6d7da4f3adb7949a5e00c1ba3e683133019d085791a97857e42686d161",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/.venv/bin/python3.9"
+  },
+  "coc-python|/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:82429a5bd97621b97f382f2e5569c022": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:82429a5bd97621b97f382f2e5569c022": [
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "9a2af77f52cc48cb692273ca7f3fb6b27201e514ef46c0b96e884b662e308a693fe1e1d4babe9fa58c1dfd49d758b38eb9b31b854dcd50bfd24f88a811f410af",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "daa6a349a1a1733edfeae4e62ad1c6acc9a88600d2cf8848857d734bedb366e8a969201ca014e36a50296199416f7fdbe7049be5ec5a8246b372e92ddbbf0c13",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "2c7c28f011cb0fb85f11786e2795cda0548277f3d2e74442d86ba0f6475de6c5b640150a9129b83d0e0148ab04579cfc6c7c632394e37dbfc667164c3021e719",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src": {
+      "architecture": 3,
+      "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+      "fileHash": "daa6a349a1a1733edfeae4e62ad1c6acc9a88600d2cf8848857d734bedb366e8a969201ca014e36a50296199416f7fdbe7049be5ec5a8246b372e92ddbbf0c13",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "9a2af77f52cc48cb692273ca7f3fb6b27201e514ef46c0b96e884b662e308a693fe1e1d4babe9fa58c1dfd49d758b38eb9b31b854dcd50bfd24f88a811f410af",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "daa6a349a1a1733edfeae4e62ad1c6acc9a88600d2cf8848857d734bedb366e8a969201ca014e36a50296199416f7fdbe7049be5ec5a8246b372e92ddbbf0c13",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.1-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 1,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.1-final"
+        },
+        "sysPrefix": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv",
+        "fileHash": "2c7c28f011cb0fb85f11786e2795cda0548277f3d2e74442d86ba0f6475de6c5b640150a9129b83d0e0148ab04579cfc6c7c632394e37dbfc667164c3021e719",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/src/.venv/bin/python3"
+  },
+  "coc-python|/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/test": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:f985432051a9d388173e4cc57d57fff8": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:f985432051a9d388173e4cc57d57fff8": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/test": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/docs/sphinx/source": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:94e787dee91be49a1581b164ffdd5900": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:94e787dee91be49a1581b164ffdd5900": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jonwebb/Desktop/Code_Dev/Python/PyFinances/docs/sphinx/source": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jonwebb/Desktop/test/test5/image_pkg": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:d0abb15da48e697eb93bdea73e5a67f8": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:d0abb15da48e697eb93bdea73e5a67f8": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jonwebb/Desktop/test/test5/image_pkg": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_2/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "e25745c61f8573d46145e2853b72942b5cc8ac9d86dc6e78106c94bd817aa664546b725db01dae9239a3cb71d8a71ab0b45b19f0e2b02d088c07f0a8d7a1ad6f",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  }
+}

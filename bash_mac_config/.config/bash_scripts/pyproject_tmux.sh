@@ -16,18 +16,18 @@
 
 # Set Session Name, this should be the name of a Python project
 SESSION=$1
-echo $SESSION
+
 # Determine base directory to open tmux session in
 path="/Desktop/Code_Dev/Python/"
 file_path=$HOME$path$SESSION 
 # ================================================================================ 
 # Verify that the project directory exists
-
+echo $file_path
 
 if [ ! -d "$file_path" ]; then
     echo "FATAL ERROR: $file_path does not exist" && exit
 else
-    cd $file_path$'/src'
+    cd $file_path$"/"$SESSION
 fi
 # ================================================================================ 
 # Develop list of open tmux sessions for comparison

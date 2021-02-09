@@ -19,5 +19,5 @@ setup(
         author='Jonathan A. Webb',
         author_email='webbja123@gmail.com',
         license=license,
-        packages=find_packages(excluse('tests', 'docs', 'scripts'))
+        packages=find_packages()
 )

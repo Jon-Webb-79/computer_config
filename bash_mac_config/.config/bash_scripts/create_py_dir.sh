@@ -25,6 +25,7 @@ else
     mkdir scripts
     mkdir scripts/bash
     mkdir test
+    cp $py_path$"/__init__.py" test/__init__.py
     mkdir data
     mkdir docs
     mkdir docs/sphinx

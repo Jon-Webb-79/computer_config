@@ -1,0 +1,30 @@
+2021/04/07-11:05:47.735 2522 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.pandora.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-11:05:47.735 2522 Recovering log #15
+2021/04/07-11:05:47.741 2522 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.pandora.com_0.indexeddb.leveldb/000015.log 
+2021/04/07-11:06:54.332 251f Level-0 table #20: started
+2021/04/07-11:06:54.342 251f Level-0 table #20: 1077429 bytes OK
+2021/04/07-11:06:54.344 251f Delete type=0 #15
+2021/04/07-11:07:52.535 252b Compacting 1@1 + 1@2 files
+2021/04/07-11:07:52.539 252b Generated table #21@1: 80 keys, 30881 bytes
+2021/04/07-11:07:52.539 252b Compacted 1@1 + 1@2 files => 30881 bytes
+2021/04/07-11:07:52.540 252b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/07-11:07:52.540 252b Delete type=2 #17
+2021/04/07-11:07:52.540 252b Delete type=2 #20
+2021/04/07-11:18:04.792 252b Level-0 table #23: started
+2021/04/07-11:18:04.800 252b Level-0 table #23: 1000450 bytes OK
+2021/04/07-11:18:04.802 252b Delete type=0 #19
+2021/04/07-11:19:14.426 252b Compacting 1@1 + 1@2 files
+2021/04/07-11:19:14.430 252b Generated table #24@1: 81 keys, 30413 bytes
+2021/04/07-11:19:14.430 252b Compacted 1@1 + 1@2 files => 30413 bytes
+2021/04/07-11:19:14.431 252b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/07-11:19:14.431 252b Delete type=2 #23
+2021/04/07-11:19:14.431 252b Delete type=2 #21
+2021/04/07-11:30:32.348 251f Level-0 table #26: started
+2021/04/07-11:30:32.356 251f Level-0 table #26: 1012802 bytes OK
+2021/04/07-11:30:32.358 251f Delete type=0 #22
+2021/04/07-11:31:22.743 252b Compacting 1@1 + 1@2 files
+2021/04/07-11:31:22.747 252b Generated table #27@1: 78 keys, 24518 bytes
+2021/04/07-11:31:22.747 252b Compacted 1@1 + 1@2 files => 24518 bytes
+2021/04/07-11:31:22.749 252b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/07-11:31:22.749 252b Delete type=2 #24
+2021/04/07-11:31:22.749 252b Delete type=2 #26

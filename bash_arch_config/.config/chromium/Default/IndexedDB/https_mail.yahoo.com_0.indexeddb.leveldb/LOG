@@ -1,0 +1,15 @@
+2021/04/09-08:06:09.422 1697 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_mail.yahoo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/09-08:06:09.422 1697 Recovering log #15
+2021/04/09-08:06:09.422 1697 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_mail.yahoo.com_0.indexeddb.leveldb/000015.log 
+2021/04/09-08:06:46.150 16c3 Level-0 table #20: started
+2021/04/09-08:06:46.152 16c3 Level-0 table #20: 4129 bytes OK
+2021/04/09-08:06:46.154 16c3 Delete type=0 #15
+2021/04/09-08:06:46.154 16c3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/09-08:06:46.155 16c3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x03\x00`pEo\x8bwB\x00\x019\x00y\x00a\x00h\x00o\x00o\x00-\x00o\x00t\x00h\x00e\x00r\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00s\x00.\x00y\x00i\x00m\x00g\x00.\x00c\x00o\x00m\x00/\x00o\x00s\x00/\x00y\x00a\x00f\x00t\x00/\x00y\x00a\x00f\x00t\x00-\x000\x00.\x003\x00.\x002\x009\x00.\x00m\x00i\x00n\x00.\x00j\x00s' @ 610 : 1
+2021/04/09-08:06:46.155 16c3 Compacting 1@1 + 1@2 files
+2021/04/09-08:06:46.156 16c3 Generated table #21@1: 57 keys, 2557 bytes
+2021/04/09-08:06:46.156 16c3 Compacted 1@1 + 1@2 files => 2557 bytes
+2021/04/09-08:06:46.158 16c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/09-08:06:46.158 16c3 Delete type=2 #17
+2021/04/09-08:06:46.158 16c3 Delete type=2 #20
+2021/04/09-08:06:46.159 16c3 Manual compaction at level-1 from '\x00\x02\x01 \x03\x00`pEo\x8bwB\x00\x019\x00y\x00a\x00h\x00o\x00o\x00-\x00o\x00t\x00h\x00e\x00r\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00s\x00.\x00y\x00i\x00m\x00g\x00.\x00c\x00o\x00m\x00/\x00o\x00s\x00/\x00y\x00a\x00f\x00t\x00/\x00y\x00a\x00f\x00t\x00-\x000\x00.\x003\x00.\x002\x009\x00.\x00m\x00i\x00n\x00.\x00j\x00s' @ 610 : 1 .. (end); will stop at (end)

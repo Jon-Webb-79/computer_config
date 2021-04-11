@@ -1,0 +1,5 @@
+2021/04/06-10:34:19.706 33e4 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_nypost.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/06-10:34:37.332 4726 Level-0 table #5: started
+2021/04/06-10:34:37.337 4726 Level-0 table #5: 1070 bytes OK
+2021/04/06-10:34:37.340 4726 Delete type=0 #3
+2021/04/06-10:34:37.340 4726 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,8 @@
+2021/04/07-08:12:21.470 ff7 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_aax-us-pdx.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-08:12:21.470 ff7 Recovering log #4
+2021/04/07-08:12:21.470 ff7 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_aax-us-pdx.amazon-adsystem.com_0.indexeddb.leveldb/000004.log 
+2021/04/07-08:12:30.338 ff7 Level-0 table #8: started
+2021/04/07-08:12:30.338 ff7 Level-0 table #8: 0 bytes OK
+2021/04/07-08:12:30.343 ff7 Delete type=0 #4
+2021/04/07-08:12:30.343 ff7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-08:12:30.344 ff7 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

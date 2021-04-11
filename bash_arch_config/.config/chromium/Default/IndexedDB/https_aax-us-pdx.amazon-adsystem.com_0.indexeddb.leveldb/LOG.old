@@ -1,0 +1,5 @@
+2021/04/06-10:10:55.521 3ac3 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_aax-us-pdx.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/06-10:11:03.959 3ac3 Level-0 table #5: started
+2021/04/06-10:11:03.963 3ac3 Level-0 table #5: 370 bytes OK
+2021/04/06-10:11:03.966 3ac3 Delete type=0 #3
+2021/04/06-10:11:03.966 3ac3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

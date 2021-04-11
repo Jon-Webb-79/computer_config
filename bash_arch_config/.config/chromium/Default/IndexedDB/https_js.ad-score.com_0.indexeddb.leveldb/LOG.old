@@ -1,0 +1,37 @@
+2021/04/09-07:56:20.803 ed0 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_js.ad-score.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/09-07:56:20.804 ed0 Recovering log #34
+2021/04/09-07:56:20.804 ed0 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_js.ad-score.com_0.indexeddb.leveldb/000034.log 
+2021/04/09-07:56:20.939 838 Level-0 table #40: started
+2021/04/09-07:56:20.941 838 Level-0 table #40: 988 bytes OK
+2021/04/09-07:56:20.942 838 Delete type=0 #34
+2021/04/09-07:56:20.943 838 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/09-07:56:22.879 838 Level-0 table #42: started
+2021/04/09-07:56:22.880 838 Level-0 table #42: 513 bytes OK
+2021/04/09-07:56:22.881 838 Delete type=0 #39
+2021/04/09-07:56:22.881 838 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 401 : 1
+2021/04/09-07:56:22.881 838 Compacting 1@0 + 1@1 files
+2021/04/09-07:56:22.882 838 Generated table #43@0: 4 keys, 242 bytes
+2021/04/09-07:56:22.882 838 Compacted 1@0 + 1@1 files => 242 bytes
+2021/04/09-07:56:22.883 838 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/09-07:56:22.883 838 Delete type=2 #42
+2021/04/09-07:56:22.883 838 Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 401 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/09-07:56:24.880 838 Level-0 table #45: started
+2021/04/09-07:56:24.881 838 Level-0 table #45: 212 bytes OK
+2021/04/09-07:56:24.883 838 Delete type=2 #40
+2021/04/09-07:56:24.883 838 Delete type=0 #41
+2021/04/09-07:56:24.883 838 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 417 : 0
+2021/04/09-07:56:24.883 838 Compacting 1@0 + 1@1 files
+2021/04/09-07:56:24.884 838 Generated table #46@0: 2 keys, 196 bytes
+2021/04/09-07:56:24.884 838 Compacted 1@0 + 1@1 files => 196 bytes
+2021/04/09-07:56:24.885 838 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/09-07:56:24.885 838 Delete type=2 #45
+2021/04/09-07:56:24.885 838 Delete type=2 #43
+2021/04/09-07:56:24.885 838 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 417 : 0 .. (end); will stop at (end)
+2021/04/09-07:56:24.885 838 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x03' @ 412 : 0
+2021/04/09-07:56:24.885 838 Compacting 1@1 + 1@2 files
+2021/04/09-07:56:24.886 838 Generated table #47@1: 4 keys, 221 bytes
+2021/04/09-07:56:24.886 838 Compacted 1@1 + 1@2 files => 221 bytes
+2021/04/09-07:56:24.887 838 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/09-07:56:24.887 838 Delete type=2 #46
+2021/04/09-07:56:24.887 838 Delete type=2 #37
+2021/04/09-07:56:24.887 838 Manual compaction at level-1 from '\x00\x00\x00\x00\x03' @ 412 : 0 .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/04/07-18:49:40.311 8bf Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.howtogeek.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-18:49:50.116 8bf Level-0 table #5: started
+2021/04/07-18:49:50.120 8bf Level-0 table #5: 344 bytes OK
+2021/04/07-18:49:50.122 8bf Delete type=0 #3
+2021/04/07-18:49:50.122 8bf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,88 @@
+1. Open Terminal by the following process. NOTE: This is assuming the use of Bash and not zsh
+   a. Click on hte magnifying glass in the top left corner of the display
+   b. Enter 'Terminal' and hit enter
+   c. On the top-right corner of the display click on 'Terminal'
+   d. Click preferences in the displayed options
+   e. Click on the 'Pro" option and then click 'Default' at the bottom right of the display window
+   f. Click on the 'Shell' tab of the display and then click the drop down menu under the 
+      words 'When the shell exits".  Click the 'Close if the shell exited cleanly" option
+   g. Close the display window and the Terminal.  Re-open the Terminal and it should 
+      have a black , semi-tranparent background.
+   e. Close the Terminal by typing 'exit' to ensure that it closes correctly by command line 
+
+2. Create your .profile, .bash_profile, .bashrc, and .bash_aliases files
+   a. You can get these files by cd'ing to your Home directory then typing
+      git clone xxxxx
+
+3. Install HomeBrew
+   a. Open your terminal and type the following command into it.  better to cut and paste it.
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+4. Install Python3
+   a. If it is not already there add the following Path to the .profile file
+      export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+   b. type the following command into your terminal
+      brew install python
+   c. Type 'python3 --version' into your terminal to see if it returns a version, if not something went wrong
+      NOTE: 'python' or 'python3' should launch the python3 intepreter and 'python2' should launch the python2 interpreter
+
+4. Install MacVim or VIM
+   a. Type the following command into your terminal
+      brew install macvim
+      NOTE: You can install the pure vim as well with brew install macvim, but MacVim is preferred
+
+5. Install .git
+   a. Type the following command into terminal
+      brew install git
+
+6. Install Fonts on your computer.  These are needed for Powerline-status
+   a. cd to your home directory and type the following command.
+      'git clone https://github.com/powerline/fonts.git'
+   b. Step 6a. should create a fonts directory in your home directory.  cd into the 
+      fonts directory and type './install.sh'
+   c. Step 6b. should create a Library/fonts directory in your Home directory.
+   d. cd to the fonts directory and type 'open .' to open the directory.
+   e. Open the Inconsolata for powerline font and install it by right clicking on it 
+   f. Open Terminal Preferences in the uppwer left corner of the screen.  Navigate to
+      the text tab and click the change fonts button.  Change to the Inconsolata for
+      Powerline font.
+
+7. Install Powerline-status 
+   a. type the following command; 
+      'pip3 install powerline-status'
+   b. Find the powerline-status location 
+      'pip3 show powerline-status'
+   c. In my case powerline status is at /usr/lcoal/lob/python3.9site-packages.  Use
+      this information to update the .bashrc file with the following command.
+
+      powerline-daemon -q
+      POWERLINE_BASH_CONTINUATION=1
+      POWERLINE_BASH_SELECT=1
+      source /usr/local/lib/python3.9/site-packages/powerline/bindings/bash/powerline.sh
+
+   d. Type the folllowing commands into terminal 
+
+      mkdir ~/.config/powerline 
+      cp -r /usr/local/lob/python3.9/site-packages/powerline/config_files/ ~/.config/powerline 
+
+   e. Shut down and then restart your terminal  
+
+8. Install Vundle as a vim package manager following the next few steps
+   a. Type 'cd $HOME' into terminal to ensure you are in the home directory
+   b. Type 'git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim' into the Terminal
+      and hit enter.  This will create a .vim directory and a bundle directory within the .vim directory
+      and download the Vindle.vim files there.
+
+9. Install NerdFonts
+   a. Open terminal and type 'brew tap homebrew/cask-fonts'
+   b. Open 'brew install --cask font-hack-nerd-font'
+
+10. Create .vimrc file. NOTE This should already be completed if you installed files with step 2.
+
+11. Open terminal and type 'cd $HOME' to ensure you are in the home directory.  Open the .vimrc
+    file with vim.  Enter command mde by typing escape, then the shift and : keys simultaneously. 
+    Type PluginInstall.  You may get YCM error.  If this is true, complete the following steps
+    a. cd to .vim/bundle/YouCompleteMe.  
+    b. Type 'python3 install.py'
+    c. cd back to the .vimrc file, open it in vim and type PluginInstall again
+

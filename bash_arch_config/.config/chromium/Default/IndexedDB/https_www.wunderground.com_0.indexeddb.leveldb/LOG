@@ -1,0 +1,15 @@
+2021/04/08-13:33:28.822 367a Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.wunderground.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/08-13:33:28.822 367a Recovering log #15
+2021/04/08-13:33:28.822 367a Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.wunderground.com_0.indexeddb.leveldb/000015.log 
+2021/04/08-13:34:33.001 35a2 Level-0 table #20: started
+2021/04/08-13:34:33.003 35a2 Level-0 table #20: 407 bytes OK
+2021/04/08-13:34:33.005 35a2 Delete type=0 #15
+2021/04/08-13:34:33.006 35a2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/08-13:34:33.006 35a2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x03\x00\x00\x80\xa6\xd6\x1b\xd8A' @ 183 : 1
+2021/04/08-13:34:33.006 35a2 Compacting 1@1 + 1@2 files
+2021/04/08-13:34:33.007 35a2 Generated table #21@1: 57 keys, 1030 bytes
+2021/04/08-13:34:33.007 35a2 Compacted 1@1 + 1@2 files => 1030 bytes
+2021/04/08-13:34:33.009 35a2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/08-13:34:33.009 35a2 Delete type=2 #17
+2021/04/08-13:34:33.009 35a2 Delete type=2 #20
+2021/04/08-13:34:33.009 35a2 Manual compaction at level-1 from '\x00\x04\x01\x02\x03\x00\x00\x80\xa6\xd6\x1b\xd8A' @ 183 : 1 .. (end); will stop at (end)

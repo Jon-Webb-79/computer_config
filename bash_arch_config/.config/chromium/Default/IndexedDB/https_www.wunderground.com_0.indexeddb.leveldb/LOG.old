@@ -1,0 +1,15 @@
+2021/04/08-09:47:49.767 2d6d Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.wunderground.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/08-09:47:49.767 2d6d Recovering log #11
+2021/04/08-09:47:49.767 2d6d Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.wunderground.com_0.indexeddb.leveldb/000011.log 
+2021/04/08-09:49:28.223 2bc7 Level-0 table #16: started
+2021/04/08-09:49:28.225 2bc7 Level-0 table #16: 406 bytes OK
+2021/04/08-09:49:28.226 2bc7 Delete type=0 #11
+2021/04/08-09:49:28.227 2bc7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/08-09:49:28.227 2bc7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x03\x00\x00\x00m\xc9\x1b\xd8A' @ 171 : 1
+2021/04/08-09:49:28.227 2bc7 Compacting 1@1 + 1@2 files
+2021/04/08-09:49:28.228 2bc7 Generated table #17@1: 55 keys, 991 bytes
+2021/04/08-09:49:28.228 2bc7 Compacted 1@1 + 1@2 files => 991 bytes
+2021/04/08-09:49:28.230 2bc7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/08-09:49:28.230 2bc7 Delete type=2 #16
+2021/04/08-09:49:28.230 2bc7 Delete type=2 #13
+2021/04/08-09:49:28.230 2bc7 Manual compaction at level-1 from '\x00\x04\x01\x02\x03\x00\x00\x00m\xc9\x1b\xd8A' @ 171 : 1 .. (end); will stop at (end)

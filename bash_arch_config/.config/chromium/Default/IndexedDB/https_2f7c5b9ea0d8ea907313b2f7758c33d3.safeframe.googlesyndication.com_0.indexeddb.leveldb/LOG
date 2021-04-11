@@ -1,0 +1,5 @@
+2021/04/09-07:48:48.253 838 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_2f7c5b9ea0d8ea907313b2f7758c33d3.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/09-07:48:57.567 aac Level-0 table #5: started
+2021/04/09-07:48:57.568 aac Level-0 table #5: 439 bytes OK
+2021/04/09-07:48:57.571 aac Delete type=0 #3
+2021/04/09-07:48:57.571 aac Manual compaction at level-0 from (begin) .. (end); will stop at (end)

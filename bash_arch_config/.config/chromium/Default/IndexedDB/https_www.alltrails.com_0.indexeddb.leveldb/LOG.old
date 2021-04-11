@@ -1,0 +1,5 @@
+2021/04/07-13:32:50.155 48ff Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.alltrails.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-13:34:31.371 48ff Level-0 table #5: started
+2021/04/07-13:34:31.407 48ff Level-0 table #5: 2499 bytes OK
+2021/04/07-13:34:31.411 48ff Delete type=0 #3
+2021/04/07-13:34:31.411 48ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)

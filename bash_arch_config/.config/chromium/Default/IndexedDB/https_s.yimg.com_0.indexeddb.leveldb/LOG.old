@@ -1,0 +1,8 @@
+2021/04/07-12:43:27.803 383f Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_s.yimg.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-12:43:27.803 383f Recovering log #22
+2021/04/07-12:43:27.803 383f Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_s.yimg.com_0.indexeddb.leveldb/000022.log 
+2021/04/07-12:43:34.203 383f Level-0 table #26: started
+2021/04/07-12:43:34.203 383f Level-0 table #26: 0 bytes OK
+2021/04/07-12:43:34.205 383f Delete type=0 #22
+2021/04/07-12:43:34.205 383f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-12:43:34.205 383f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

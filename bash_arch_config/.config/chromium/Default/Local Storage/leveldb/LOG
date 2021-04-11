@@ -1,0 +1,20 @@
+2021/04/11-16:24:50.212 3 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2021/04/11-16:24:50.213 3 Recovering log #190
+2021/04/11-16:24:50.214 3 Level-0 table #192: started
+2021/04/11-16:24:50.219 3 Level-0 table #192: 95068 bytes OK
+2021/04/11-16:24:50.222 3 Delete type=0 #190
+2021/04/11-16:25:20.520 3 Level-0 table #195: started
+2021/04/11-16:25:20.525 3 Level-0 table #195: 361862 bytes OK
+2021/04/11-16:25:20.526 3 Delete type=0 #193
+2021/04/11-16:26:48.884 7 Level-0 table #197: started
+2021/04/11-16:26:48.887 7 Level-0 table #197: 95068 bytes OK
+2021/04/11-16:26:48.888 7 Delete type=0 #194
+2021/04/11-16:26:48.889 7 Compacting 4@0 + 1@1 files
+2021/04/11-16:26:48.908 7 Generated table #198@0: 1388 keys, 1352308 bytes
+2021/04/11-16:26:48.908 7 Compacted 4@0 + 1@1 files => 1352308 bytes
+2021/04/11-16:26:48.909 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/11-16:26:48.910 7 Delete type=2 #195
+2021/04/11-16:26:48.910 7 Delete type=2 #192
+2021/04/11-16:26:48.910 7 Delete type=2 #197
+2021/04/11-16:26:48.910 7 Delete type=2 #189
+2021/04/11-16:26:48.910 7 Delete type=2 #187

@@ -1,0 +1,8 @@
+2021/04/07-18:38:14.198 7cf0 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_a7847ea983b968f54a46ec7f54e56592.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-18:38:14.198 7cf0 Recovering log #7
+2021/04/07-18:38:14.198 7cf0 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_a7847ea983b968f54a46ec7f54e56592.safeframe.googlesyndication.com_0.indexeddb.leveldb/000007.log 
+2021/04/07-18:38:26.325 7cee Level-0 table #11: started
+2021/04/07-18:38:26.326 7cee Level-0 table #11: 0 bytes OK
+2021/04/07-18:38:26.330 7cee Delete type=0 #7
+2021/04/07-18:38:26.331 7cee Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-18:38:26.331 7cee Manual compaction at level-1 from (begin) .. (end); will stop at (end)

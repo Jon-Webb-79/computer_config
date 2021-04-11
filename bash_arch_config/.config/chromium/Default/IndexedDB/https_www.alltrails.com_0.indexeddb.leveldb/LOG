@@ -1,0 +1,8 @@
+2021/04/07-13:34:34.297 4bd6 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.alltrails.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-13:34:34.297 4bd6 Recovering log #4
+2021/04/07-13:34:34.297 4bd6 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.alltrails.com_0.indexeddb.leveldb/000004.log 
+2021/04/07-13:37:46.937 4bf9 Level-0 table #8: started
+2021/04/07-13:37:46.937 4bf9 Level-0 table #8: 0 bytes OK
+2021/04/07-13:37:46.941 4bf9 Delete type=0 #4
+2021/04/07-13:37:46.941 4bf9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-13:37:46.941 4bf9 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/04/06-09:25:19.005 22f9 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_ad.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/06-09:25:24.323 22f9 Level-0 table #5: started
+2021/04/06-09:25:24.325 22f9 Level-0 table #5: 346 bytes OK
+2021/04/06-09:25:24.327 22f9 Delete type=0 #3
+2021/04/06-09:25:24.327 22f9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

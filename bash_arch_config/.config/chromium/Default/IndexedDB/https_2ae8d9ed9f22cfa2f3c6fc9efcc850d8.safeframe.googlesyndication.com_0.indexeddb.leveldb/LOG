@@ -1,0 +1,5 @@
+2021/04/06-09:25:18.523 22f9 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_2ae8d9ed9f22cfa2f3c6fc9efcc850d8.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/06-09:25:24.383 22f9 Level-0 table #5: started
+2021/04/06-09:25:24.385 22f9 Level-0 table #5: 439 bytes OK
+2021/04/06-09:25:24.387 22f9 Delete type=0 #3
+2021/04/06-09:25:24.387 22f9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

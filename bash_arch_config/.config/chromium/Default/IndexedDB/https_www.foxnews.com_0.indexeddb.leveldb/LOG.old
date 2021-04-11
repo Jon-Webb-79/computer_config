@@ -1,0 +1,15 @@
+2021/04/09-07:48:24.453 838 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.foxnews.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/09-07:48:24.453 838 Recovering log #7
+2021/04/09-07:48:24.453 838 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.foxnews.com_0.indexeddb.leveldb/000007.log 
+2021/04/09-07:56:09.683 80d Level-0 table #12: started
+2021/04/09-07:56:09.687 80d Level-0 table #12: 335657 bytes OK
+2021/04/09-07:56:09.689 80d Delete type=0 #7
+2021/04/09-07:56:09.689 80d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/09-07:56:09.689 80d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x16\x00p\x00e\x00r\x00m\x00u\x00t\x00i\x00v\x00e\x00-\x00e\x00v\x00e\x00n\x00t\x00s\x00-\x00c\x00a\x00c\x00h\x00e' @ 840 : 1
+2021/04/09-07:56:09.689 80d Compacting 1@1 + 1@2 files
+2021/04/09-07:56:09.690 80d Generated table #13@1: 64 keys, 1449 bytes
+2021/04/09-07:56:09.690 80d Compacted 1@1 + 1@2 files => 1449 bytes
+2021/04/09-07:56:09.691 80d compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/09-07:56:09.692 80d Delete type=2 #9
+2021/04/09-07:56:09.692 80d Delete type=2 #12
+2021/04/09-07:56:09.692 80d Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x16\x00p\x00e\x00r\x00m\x00u\x00t\x00i\x00v\x00e\x00-\x00e\x00v\x00e\x00n\x00t\x00s\x00-\x00c\x00a\x00c\x00h\x00e' @ 840 : 1 .. (end); will stop at (end)

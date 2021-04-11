@@ -1,0 +1,8 @@
+2021/04/11-16:25:19.871 748 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/11-16:25:19.871 748 Recovering log #32
+2021/04/11-16:25:19.871 748 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000032.log 
+2021/04/11-16:25:22.648 748 Level-0 table #36: started
+2021/04/11-16:25:22.648 748 Level-0 table #36: 0 bytes OK
+2021/04/11-16:25:22.651 748 Delete type=0 #32
+2021/04/11-16:25:22.651 748 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/11-16:25:22.651 748 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

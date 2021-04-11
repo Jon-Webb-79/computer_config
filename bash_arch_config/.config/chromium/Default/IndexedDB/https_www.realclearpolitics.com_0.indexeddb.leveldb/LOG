@@ -1,0 +1,8 @@
+2021/04/06-17:46:37.376 7c03 Reusing MANIFEST /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.realclearpolitics.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/06-17:46:37.376 7c03 Recovering log #7
+2021/04/06-17:46:37.376 7c03 Reusing old log /home/jonwebb/.config/chromium/Default/IndexedDB/https_www.realclearpolitics.com_0.indexeddb.leveldb/000007.log 
+2021/04/06-17:46:40.544 79f7 Level-0 table #11: started
+2021/04/06-17:46:40.544 79f7 Level-0 table #11: 0 bytes OK
+2021/04/06-17:46:40.549 79f7 Delete type=0 #7
+2021/04/06-17:46:40.549 79f7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/06-17:46:40.549 79f7 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

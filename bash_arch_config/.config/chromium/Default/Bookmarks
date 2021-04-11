@@ -1,0 +1,110 @@
+{
+   "checksum": "887c8862e20a32ba3505d8a783e28af4",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13261936339548134",
+            "guid": "fbccb409-1e6a-4650-87df-40bf245e8591",
+            "id": "5",
+            "name": "Inbox - webbja123@gmail.com - Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13261936626421882",
+            "guid": "5caa7593-aca1-4804-aafc-7c0d2cb82f52",
+            "id": "7",
+            "name": "jon.webb@yahoo.com - Yahoo Mail",
+            "type": "url",
+            "url": "https://mail.yahoo.com/d/folders/1"
+         }, {
+            "date_added": "13261937415168848",
+            "guid": "e9d00650-965e-4fb0-a9b1-dcc22aa17414",
+            "id": "9",
+            "name": "GNOME Shell Extensions",
+            "type": "url",
+            "url": "https://extensions.gnome.org/"
+         }, {
+            "date_added": "13261937919268281",
+            "guid": "27044d1b-741a-411a-a5a5-99851623adea",
+            "id": "11",
+            "name": "Gnome-look.org",
+            "type": "url",
+            "url": "https://www.gnome-look.org/browse/cat/"
+         }, {
+            "date_added": "13261960739582314",
+            "guid": "9158612e-f8e9-4031-b920-e7ac53a5ad28",
+            "id": "13",
+            "name": "Idaho Falls, ID Weather Conditions | Weather Underground",
+            "type": "url",
+            "url": "https://www.wunderground.com/weather/us/id/idaho-falls"
+         }, {
+            "date_added": "13261960766497019",
+            "guid": "6de414f0-66b8-4169-a89f-ec850c6f0961",
+            "id": "14",
+            "name": "Arch Linux",
+            "type": "url",
+            "url": "https://archlinux.org/"
+         }, {
+            "date_added": "13261960849071242",
+            "guid": "b29ab2e6-ae9e-4144-bbe4-22000b1f10b6",
+            "id": "16",
+            "name": "GitHub",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13261961544614534",
+            "guid": "d12bd9b0-b56b-4994-adab-85176df66dfe",
+            "id": "18",
+            "name": "New Tab",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13262288752539003",
+            "guid": "9a411e70-0b95-4bb0-9a01-57465a0ba529",
+            "id": "20",
+            "name": "Colter Wall Radio - Now Playing on Pandora",
+            "type": "url",
+            "url": "https://www.pandora.com/station/play/4603528905632915968"
+         }, {
+            "date_added": "13262291649099106",
+            "guid": "e7cebcb8-e3b1-4fd6-b1fc-2e51605d340c",
+            "id": "22",
+            "name": "Idaho Falls, ID Weather Conditions | Weather Underground",
+            "type": "url",
+            "url": "https://www.wunderground.com/weather/us/id/idaho-falls/43.50,-112.05"
+         }, {
+            "date_added": "13262629584561316",
+            "guid": "653d3142-e756-468a-be40-fa02f30788b0",
+            "id": "24",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         } ],
+         "date_added": "13261936217306244",
+         "date_modified": "13262629584561316",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13261936217306245",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13261936217306245",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

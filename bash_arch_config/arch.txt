@@ -1,0 +1,222 @@
+1. Ensure internet is connected hardwire and either
+    a. type 'ip addr show' to verify connections
+       You should see an inet (ip addres) for the hard link
+       but no connection for wlan0
+    b. Connect to wifi
+       - type 'iwctl'
+       - type 'device list' to ensure wlan0 is shown or 
+         another name. DO NOT INSTALL IF SOMETHING IS NOT SHOWN HERE
+       - type 'station wlan0 scan' to scan for available wifi routers
+       - type 'station wlan0 get-networks' to get a list of networks
+       - type 'station wlan connect "Network_Name"' then enter the password
+         when prompted
+    c. type 'ip address show' to verify that wlan0 has an ip address assigned
+       to it
+    d. type 'pin -c 5 8.8.8.8' to verify an internet connection 
+
+2. Partition hard drive
+    a. Endsure EUFI is enabled in bios
+    b. type 'fdisk -l' to get a list of harddrives.  Look for
+      nvme0n1
+    c. type 'fdisk /dev/nvme0n1'
+       1. type 'p' to verify partitions
+       2. type 'g' to create a new partition table layout
+       3. type 'n' for new
+          - accept default of 1
+          - accept second default
+          - type ''+500M' for the third option
+       4. type 't' to set type
+          - Type '1', which should yield an EFI partition type
+       5. type 'n' for new partition 
+          - accept default of 2
+          - accept second default
+          - type ''+500M' for third options
+       6. type 'n' for third partitions
+          - accept 3 as default
+          - accept second default
+          - press enter for the third default
+       7. type 't' to set the third partition type
+          - accept 3 as default 
+          - type 30 for partition type.  It should display an LVM type
+       8. type 'p' it should show three nvme0n1 drives with p1, p2 and p3 
+          that should be EFI, Linux Filesystem and Linux LVM types 
+          respectively
+       9. Type 'w' to write the partition drive.  This command will wipe your drive
+       10. run 'fdisk -l' to verify drives
+       11. type 'mkfs.fat -F32 /dev/nvme0n1p1'
+       12. type 'mkfs.ext4 /dev/nvme0n1p2'
+       13. Encrypt the third partition
+           - type 'cryptsetup luksFormat /dev/nvme0n1p3'
+           - type 'YES'
+           - enter a password you will remember
+           - type 'cryptsetup open --type luks /dev/nvme0n1p3 lvm' to open 
+             encrypted drive so you can work with it and enter the password
+       14. Create a physical volume for LVM
+           - type 'pvcreate --dataaliggnment 1m /dev/mapper/lvm'
+       15. Create a volume
+           - type 'vgcreate volggroup0 /dev/mapper/lvm'
+       16. type 'lvcreate -L 30GB volgroup0 -n lv_root'
+       17. type 'lvcreate -l 100%FREE volgroup0 -n lv_home'
+       18. type 'modprobe dm_mod'
+       19. type 'vgscan' it should find volgroup0
+       20. type 'vgchange -ay' it should find 2 logical volumes
+       21. mkfs.ext4 /dev/volgroup0/lv_root
+       22. mount /dev/volgroup0/lv_root /mnt
+       23. mkdir /mnt/boot
+       24. mount /dev/nvme0n1p2 /mnt/boot
+       25. mkfs.ext4 /dev/volgroup0/lv_home 
+       26. mkdir /mnt/home
+       27. mount /dev/volgroup0/lv_home /mnt/home
+       28. mkdir /mnt/etc
+       29. genfstab -U -p /mnt >> /mnt/etc/fstab
+       30. verify fastab with
+           cat /mnt/etc/fstab
+
+           It should look like
+           /dev/mapper/volggroup0-lv_root /     ext4
+           /dev/nvme0n1p2                 /boot ext4
+           /dev/mapper/volgroup0-lv_home  /home ext4 
+
+2. Install Arch Linux
+    1. Install base packages
+       pacstrap -i /mnt base linux linux-headers linux-firmware
+    2. 'arch-chroot /mnt' to enter root
+    3. pacman -S gvim
+    4. pacman -S base-devel openssh
+    5. systemctl enable sshd
+    6. pacman -S networkmanager iwd wpa_supplicant wireless_tools netctl
+    7. pacman -S dialog
+    8. systemctl enable NetworkManager
+    9. pacman -S lvm2
+   10. vim /etc/mkinitcpio.conf
+       change HOOKS=(base udev autodetect modconf block filesystems keyboard fsck) to
+       HOOKS=(base udev autodetect modconf block encrypt lvm2 filesystems keyboard fsck)
+   11. mkinitcpio -p linux 
+   12. vim /etc/locale.gen
+       - look for an uncomment en_US.UTF-8 UTF-8
+       - after closing out type 'locale-gen' it shoudl show the correct locale
+   13. Set passwords
+       a. passwd, then set the password for the root user
+       b. Create a standard user
+          - useradd -m -g users -G wheel jonwebb
+          passwd jonwebb, and type password for standard user
+   14. verify that sudo is installed 
+       - which sudo
+       - if it does not exist reinstall it with 'pacman -S sudo'
+   15.  Associate wheel group with user
+        EDITOR=vim visudo
+        a. Uncomment wheel ALL=(ALL) ALL
+
+3. Install grub
+    a. pacman -S grub efibootmgr dosfstools os-prober mtools
+    b. mkdir /boot/EFI
+    c. mount /dev/nvme0n1p1 /boot/EFI
+    d. grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+    e. ls -l /boot/grub
+       look for locale directory, if it does not exist type
+       mkdir /noot/grub/locale
+    f. cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo 
+    g. vim /etc/default/grub
+       - uncomment GRUB_ENABLE_CRYPTODISK=y
+       - Reformat GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet" to 
+         GRUB_CMDLINE_LINUX_DEFAULT="cryptdevice=/dev/nvme0n1p3:volggroup0:allow-discardsloglevel=3 quiet"
+    h. grub-mkconfig -o /boot/grub/grub.cfg
+    i. exit
+    j. umount -a
+    k. reboot
+
+4. Create swap file
+    a. su and type the root password
+    b. cd /root
+    c. dd if=/dev/zero of=/swapfile bs=1M count=2048 status=progress
+    d. chmod 600 /swapfile 
+    e. mkswap /swapfile
+    f. cp /etc/fstab /etc/fstab.bak
+    g. echo 'swapfile none swap sw 0 0' | tee -a /etc/fstab
+    h. cat /etc/fstab to check the swapfile was added
+    i. mount -a to see if their are any errors
+    j. activate swap swapon -a
+    h. free -m to check status
+ 
+5. Set timezone
+    a. timedatectl list-timezones to see available timezones
+    b. timedatectl set-timezone America/Denver
+    c. systemctl enable systemd-timesyncd
+
+6. Set hostname
+    a. hostnamectl set-hostname webbmachine
+    b. cat /etc/hostname 
+    c. set the hosts file
+       vim /etc/hosts 
+       127.0.0.1 localhost
+       ::1       localhost
+       127.0.1.1 webbmachine.localhost webbmachione
+    d. hostnamectl to verify
+
+7. Install intel microcode and various issues
+    a. pacman -S intel-ucode
+    b. pacman -S xorg-server
+    c. pacman -S mesa
+    d. Download iwd 
+       - sudo pacman -S iwd
+       - sudo systemctl enable --now iwd
+    e. Enter iwd prompt and configure router
+       - type 'iwctl'
+       - type 'device list' to see available devices
+       - type 'station wlan0 scan'
+       - type 'station wlan connect "Network_Name"' then enter the password
+         when prompted  
+    f. Ensure the following is typed into /etc/iwd/main.conf
+       [General]
+       EnableNetworkConfiguration=true
+       [Network]
+       RouterPriorityOffset=300
+       EnableIPv6=true
+    g. Ensure the following is typed into /vsr/lib/iwd/my_router.psk
+       [IPv4]
+       Address=193.168.18
+       Netmask=255.255.255.0
+       Gateway=192.168.0.1
+       Broadcast=192.168.1.255
+       DNS=192.168.1.1
+       [Security]
+       PreShareKey=xxxxxxxxxxxxxxx figure out what this is
+       Passphrase=39xbfff7c3486
+
+8. Install Gnome
+    a. pacman -S ggnome gnome-tweaks gnome-extra
+    b. systemctl enable gdm
+    c. reboot 
+
+9. Configure gnome
+    a. Open settings and change language to english
+    b. reboot 
+    c. open Terminal to ensure it works.  The language must be set for this
+       to work 
+    d. sudo pacman -S libreoffice chromium lollypop notepadqq LaTeX GGIMP Master PDF Editor 
+       VLC 
+    e. pacman -S python
+    f. pacman -S pip
+    g. find GNOME Customization youtube video and configure gnome in accordance
+
+10. Configure sound
+    a. verify in preferences that the sound card is on
+    a. pacman -S alsa-utils
+    b. alsamixer
+    c. Use m key to unmute and turn sound up
+
+11. Configure bluetooth
+    - sudo pacman -S bluez bluez-utils pulseaudio-bluetooth
+    - bluetoothctl
+    - reboot
+    -hook up mouse
+    -hook up keyboard 
+
+12. Configure OpenSSH
+
+13. Configure Fail2Ban
+
+14. Configure rsync script with cron  
+
+15. Configure startup files
+    - will require 'sudo pacman -S powerline'
